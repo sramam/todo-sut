@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "preinstall": "install-ng-todo; install-ngi18n",
     "install-ng-todo": "cd public/angularjs; npm install; cd ../..",
     "install-ngi18n": "cd public/angulari18n-test; npm install; cd ../..",
+    "postinstall": "npm run install-ng-todo; npm run install-ngi18n",
     "start": "node app.js"
   },
   "dependencies": {
