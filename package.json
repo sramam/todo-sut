@@ -8,6 +8,7 @@
     "postinstall": "npm run install-ng-todo; npm run install-ngi18n",
     "start": "node app.js"
   },
+  "bin": "npm start",
   "dependencies": {
     "body-parser": "^1.14.1",
     "errorhandler": "^1.4.2",
