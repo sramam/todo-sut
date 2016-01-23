@@ -8,16 +8,14 @@ Currently, includes
 
 # Install
 
-    git clone https://github.com/sramam/todo-sut todo-sut
-    cd todo-sut
-    npm install
-    # The angularjs app is a stand alone sub project
-    # we'll have to install it's dependencies too.
-    cd public/angularjs
-    npm install
-    cd ../..
+    npm init
+    npm install https://github.com/sramam/todo-sut
 
 # Run
-    
-    node app.js
-    # visit http://localhost:3000/angularjs/
+
+    ./node_modules/.bin/todo-sut.js
+
+
+visit
+-  http://localhost:3000/angularjs/ or
+-  http://localhost:3000/angulari18n-test/index.html
