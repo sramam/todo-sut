@@ -8,12 +8,16 @@
     "postinstall": "npm run install-ng-todo; npm run install-ngi18n",
     "start": "node app.js"
   },
-  "bin": {"todo-sut.js": "./app.js"},
+  "bin": {
+    "todo-sut.js": "./app.js"
+  },
   "dependencies": {
     "body-parser": "^1.14.1",
     "errorhandler": "^1.4.2",
     "express": "3.1.1",
+    "formidable": "^1.0.17",
     "method-override": "^2.3.5",
-    "morgan": "^1.6.1"
+    "morgan": "^1.6.1",
+    "pause": "^0.1.0"
   }
 }
