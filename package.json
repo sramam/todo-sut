@@ -6,7 +6,7 @@
     "install-ng-todo": "cd public/angularjs; npm install; cd ../..",
     "install-ngi18n": "cd public/angulari18n-test; npm install; cd ../..",
     "postinstall": "npm run install-ng-todo; npm run install-ngi18n",
-    "start": "node app.js"
+    "start": "./app.js"
   },
   "bin": {
     "todo-sut.js": "./app.js"
