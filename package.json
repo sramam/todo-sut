@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "install-ng-todo": "cd public/angularjs; npm install; cd ../..",
+    "install-ng2-todo": "cd public/angular2; npm install; cd ../..",
     "install-ngi18n": "cd public/angulari18n-test; npm install; cd ../..",
-    "postinstall": "npm run install-ng-todo; npm run install-ngi18n",
-    "start": "./app.js"
+    "postinstall": "npm run install-ng-todo; npm run install-ngi18n; npm run install-ng2-todo",
+    "start": "node app.js"
   },
   "bin": {
     "todo-sut.js": "./app.js"
