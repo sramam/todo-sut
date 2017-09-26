@@ -7,7 +7,9 @@
     "install-ng2-todo": "cd public/angular2; npm install; cd ../..",
     "install-ngi18n": "cd public/angulari18n-test; npm install; cd ../..",
     "postinstall": "npm run install-ng-todo; npm run install-ngi18n; npm run install-ng2-todo",
-    "start": "node app.js"
+    "start": "node app.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": {
     "todo-sut.js": "./app.js"
@@ -19,6 +21,8 @@
     "formidable": "^1.0.17",
     "method-override": "^2.3.5",
     "morgan": "^1.6.1",
-    "pause": "^0.1.0"
-  }
+    "pause": "^0.1.0",
+    "snyk": "^1.41.1"
+  },
+  "snyk": true
 }
