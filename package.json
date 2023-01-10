@@ -17,7 +17,7 @@
     "errorhandler": "^1.4.2",
     "express": "4.16.0",
     "formidable": "^1.0.17",
-    "method-override": "^2.3.5",
+    "method-override": "^3.0.0",
     "morgan": "^1.6.1",
     "pause": "^0.1.0"
   }
